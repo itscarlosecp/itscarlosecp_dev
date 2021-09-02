@@ -4,10 +4,10 @@ const About = () => (
 	<Section id="about">
 		<div className="flex flex-col-reverse md:flex-row gap-8">
 			<div>
-				<h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+				<h1 className="text-2xl sm:text-3xl lg:text-4xl">
 					Hi there, I'm Carlos.
 				</h1>
-				<div className="mt-4">
+				<div className="mt-4 text-gray-800">
 					<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing
 						elit. Minima obcaecati eos atque ab officia voluptatem

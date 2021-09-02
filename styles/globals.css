@@ -15,15 +15,11 @@
 
 @layer base {
 	:is(h1, h2, h3, h4, h5, h6) {
-		@apply text-gray-900;
+		@apply font-bold text-gray-900;
 	}
 	
-	p {
-		@apply text-gray-800;
-	}
-
 	a {
-		@apply transition-colors duration-300;
+		@apply transition-colors duration-200;
 		@apply text-gray-800 hover:text-blue-400;
 	}
 }

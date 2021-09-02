@@ -1,9 +1,9 @@
-interface LinkProps {
+interface NavbarLinkProps {
 	href: string
 	text: string
 }
 
-const Link = (props: LinkProps) => (
+const NavbarLink = (props: NavbarLinkProps) => (
 	<a
 		href={props.href}
 		target="_blank"
@@ -20,9 +20,9 @@ const Navbar = () => (
 			<a href="/" className="font-medium uppercase tracking-wider">
 				Carlos Castillo
 			</a>
-			<div className="flex gap-4">
-				<Link href="https://github.com/itscarlosecp" text="Github" />
-				<Link href="https://twitter.com/itscarlosecp" text="Twitter" />
+			<div className="space-x-4">
+				<NavbarLink href="https://github.com/itscarlosecp" text="Github" />
+				<NavbarLink href="https://twitter.com/itscarlosecp" text="Twitter" />
 			</div>
 		</div>
 	</div>
